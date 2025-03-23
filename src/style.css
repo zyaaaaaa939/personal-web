@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .section-heading {
+    @apply text-3xl font-bold text-primary mb-6 pt-16;
+  }
+  
+  .btn {
+    @apply bg-primary text-white font-semibold py-2 px-4 rounded-md hover:bg-red-500 transition duration-300;
+  }
+}
+
+
+
+
+/* https://css-tricks.com/almanac/properties/s/scroll-behavior/ */
+html {
+    scroll-behavior: smooth;
+}

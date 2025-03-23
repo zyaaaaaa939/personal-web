@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zia Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+</head>
+<body class="bg-gray-50">
+  <nav class="bg-white shadow-md fixed w-full z-10">
+    <div class="container mx-auto px-4 py-3">
+      <div class="flex justify-between items-center">
+        <a href="#" class="text-primary text-2xl font-bold">Portfolio</a>
+        
+        <div class="hidden md:flex space-x-8">
+          <a href="#about" class="text-gray-700 hover:text-primary transition">About Me</a>
+          <a href="#projects" class="text-gray-700 hover:text-primary transition">Projects</a>
+          <a href="#contact" class="text-gray-700 hover:text-primary transition">Contact</a>
+        </div>
+        
+        <button id="hamburger" class="md:hidden focus:outline-none">
+          <i class="fas fa-bars text-gray-700 text-xl"></i>
+        </button>
+      </div>
+      
+      <div id="mobile-menu" class="md:hidden hidden bg-white pb-4 pt-2">
+        <a href="#about" class="block py-2 px-4 text-sm text-gray-700 hover:bg-red-100">About Me</a>
+        <a href="#projects" class="block py-2 px-4 text-sm text-gray-700 hover:bg-red-100">Projects</a>
+        <a href="#contact" class="block py-2 px-4 text-sm text-gray-700 hover:bg-red-100">Contact</a>
+      </div>
+    </div>
+  </nav>
+  
+<header class="h-screen flex items-center justify-center bg-gradient-to-br from-red-50 to-red-100 pt-16">
+    <div class="container mx-auto px-4 flex flex-col md:flex-row items-center ml-10">
+      <div class="md:w-1/2 text-center md:text-left mb-8 md:mb-0">
+        <h1 class="text-4xl md:text-5xl font-bold text-gray-800 mb-4 ">Hi, I'm <span class="text-primary">Zia Kirana Agustin</span></h1>
+        <h2 class="text-2xl md:text-3xl font-medium text-gray-600 mb-6"><span id="typing-text"></span></h2>
+        <p class="text-gray-600 mb-8 max-w-lg mx-auto md:mx-0">
+          software engineering is about creating solutions .....
+        </p>
+        <div class="flex flex-wrap gap-4 justify-center md:justify-start">
+          <a href="#contact" class="btn">Get In Touch</a>
+          <a href="#projects" class="border border-primary text-primary font-semibold py-2 px-4 rounded-md hover:bg-red-50 transition duration-300">View Projects</a>
+        </div>
+      </div>
+      <div class="md:w-1/2 flex justify-center">
+        <img src="img/zia.JPG" alt="Professional headshot" class="rounded-full w-64 h-64 md:w-80 md:h-80 object-cover border-4 border-white shadow-lg">
+      </div>
+    </div>
+  </header>
+  
+  <section id="about" class="py-20 bg-white">
+    <div class="container mx-auto px-4">
+      <h2 class="section-heading text-center">About Me</h2>
+      
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
+        <div class="bg-red-50 p-6 rounded-lg shadow-md">
+          <div class="bg-primary rounded-full w-14 h-14 flex items-center justify-center mx-auto mb-4">
+            <i class="fas fa-user text-white text-xl"></i>
+          </div>
+          <h3 class="text-xl font-semibold text-gray-800 text-center mb-3">Background</h3>
+          <p class="text-gray-600 text-center">
+            I study at SMK Pesat, in grade 10, majoring in Software Engineering (RPL)
+          </p>
+        </div>
+        
+        <div class="bg-red-50 p-6 rounded-lg shadow-md">
+          <div class="bg-primary rounded-full w-14 h-14 flex items-center justify-center mx-auto mb-4">
+            <i class="fas fa-code text-white text-xl"></i>
+          </div>
+          <h3 class="text-xl font-semibold text-gray-800 text-center mb-3">Skills</h3>
+          <p class="text-gray-600 text-center">
+            HTML, CSS, JavaScript, Php, TailwindCSS, Node.js, UI/UX Design, Responsive Design
+          </p>
+        </div>
+        
+        <div class="bg-red-50 p-6 rounded-lg shadow-md">
+          <div class="bg-primary rounded-full w-14 h-14 flex items-center justify-center mx-auto mb-4">
+            <i class="fas fa-heart text-white text-xl"></i>
+          </div>
+          <h3 class="text-xl font-semibold text-gray-800 text-center mb-3">Interests</h3>
+          <p class="text-gray-600 text-center">
+            When not coding, I enjoy Karate, reading, hiking, and contributing to open-source projects.
+          </p>
+        </div>
+      </div>
+      
+      <div class="mt-16">
+        <h3 class="text-2xl font-semibold text-gray-800 mb-6 text-center">Education & Experience</h3>
+        
+        <div class="max-w-3xl mx-auto">
+          <div class="relative pl-8 pb-8 border-l-2 border-primary">
+            <div class="absolute left-[-8px] bg-primary w-4 h-4 rounded-full"></div>
+            <div class="mb-1">
+              <span class="text-sm text-gray-500">2024 - Present</span>
+              <h4 class="text-lg font-semibold text-gray-800">SMK Pesat IT XPRO</h4>
+            </div>
+            <p class="text-gray-600">vocational school focused on information technology, equipping students with skills in programming, web development, database management, and network security to meet industry demands.</p>
+          </div>
+          
+          <div class="relative pl-8 pb-8 border-l-2 border-primary">
+            <div class="absolute left-[-8px] bg-primary w-4 h-4 rounded-full"></div>
+            <div class="mb-1">
+              <span class="text-sm text-gray-500">2024 - Present</span>
+              <h4 class="text-lg font-semibold text-gray-800">Learning Developer Web.</h4>
+            </div>
+            <p class="text-gray-600">Developed responsive websites and web applications for various clients using modern frontend technologies.</p>
+          </div>
+          
+          <div class="relative pl-8 pb-8 border-l-2 border-primary">
+            <div class="absolute left-[-8px] bg-primary w-4 h-4 rounded-full"></div>
+            <div class="mb-1">
+              <span class="text-sm text-gray-500">2019 - present</span>
+              <h4 class="text-lg font-semibold text-gray-800">Karate Enthusiast</h4>
+            </div>
+            <p class="text-gray-600">Dedicated to continuous self-improvement and personal growth through training and competition.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="projects" class="bg-white">
+    <div class="container mx-auto px-4">
+      <h2 class="section-heading text-center">My Projects</h2>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
+        <!-- Project 1 -->
+        <div class="bg-white rounded-lg overflow-hidden shadow-md">
+            <img src="img/Screenshot 2025-03-09 132033.png" alt="Sertikom project" class="w-full h-48 object-cover">
+            <div class="p-6">
+              <h3 class="text-xl font-semibold text-gray-800 mb-2">Travel Landing Page</h3>
+              <p class="text-gray-600 mb-4">A simple web application that displays a random travel-related quote each time a button is pressed. Users can receive motivational or inspiring travel quotes randomly, encouraging them to explore new destinations and adventures.</p>
+              <div class="flex flex-wrap gap-2 mb-4">
+                <span class="bg-red-100 text-red-600 text-xs px-2 py-1 rounded-full">HTML</span>
+                <span class="bg-red-100 text-red-600 text-xs px-2 py-1 rounded-full">CSS</span>
+                <span class="bg-red-100 text-red-600 text-xs px-2 py-1 rounded-full">JavaScript</span>
+              </div>
+              <div class="flex flex-wrap gap-2 mb-4">
+                <span class="bg-primary text-xs px-8 py-2 rounded-full  text-white hover:bg-red-500 transition"><i class="fab fa-github"></i></span> 
+              </div>
+            </div>
+          </div>
+        
+        <!-- Project 2 -->
+        <div class="bg-white rounded-lg overflow-hidden shadow-md">
+            <img src="img/Screenshot 2025-03-09 134512.png" alt="Tech Educa project" class="w-full h-48 object-cover">
+            <div class="p-6">
+              <h3 class="text-xl font-semibold text-gray-800 mb-2">Tech Educa Landing Page</h3>
+              <p class="text-gray-600 mb-4">A simple web application that displays a random school or campus-related quote each time a button is pressed. Users can receive motivational or inspiring quotes related to education, learning, and campus life, encouraging them to stay motivated and strive for success in their academic journey.</p>
+              <div class="flex flex-wrap gap-2 mb-4">
+                <span class="bg-red-100 text-red-600 text-xs px-2 py-1 rounded-full">HTML</span>
+                <span class="bg-red-100 text-red-600 text-xs px-2 py-1 rounded-full">CSS</span>
+                <span class="bg-red-100 text-red-600 text-xs px-2 py-1 rounded-full">JavaScript</span>
+              </div>
+              <div class="flex flex-wrap gap-2 mb-4">
+                <span class="bg-primary text-xs px-8 py-2 rounded-full  text-white hover:bg-red-500 transition"><i class="fab fa-github"></i></span> 
+              </div>
+            </div>
+          </div>
+
+        <!-- Project 3 -->
+          <div class="bg-white rounded-lg overflow-hidden shadow-md">
+            <img src="img/Screenshot 2025-03-09 130546.png" alt="Wedding Invitation" class="w-full h-48 object-cover">
+            <div class="p-6">
+              <h3 class="text-xl font-semibold text-gray-800 mb-2">Wedding Invitation Landing Page</h3>
+              <p class="text-gray-600 mb-4">A simple web application that generates a personalized wedding invitation each time a button is pressed. Users can receive beautifully designed wedding invitations with custom messages, dates, and venue details. This application allows couples to create their perfect wedding invitation with a touch of creativity, making the experience fun and easy.</p>
+              <div class="flex flex-wrap gap-2 mb-4">
+                <span class="bg-red-100 text-red-600 text-xs px-2 py-1 rounded-full">HTML</span>
+                <span class="bg-red-100 text-red-600 text-xs px-2 py-1 rounded-full">CSS</span?>     
+              </div>
+              <div class="flex flex-wrap gap-2 mb-4">
+                <span class="bg-primary text-xs px-8 py-2 rounded-full  text-white hover:bg-red-500 transition"><i class="fab fa-github"></i></span> 
+              </div>
+            </div>
+          </div>
+
+           <!-- Project 4 -->
+           <div class="bg-white rounded-lg overflow-hidden shadow-md">
+            <img src="img/Screenshot (1).png" alt="Ui design" class="w-full h-48 object-cover">
+            <div class="p-6">
+              <h3 class="text-xl font-semibold text-gray-800 mb-2">UI Design</h3>
+              <p class="text-gray-600 mb-4">A simple Ui Design with figmas</p>
+              <div class="flex flex-wrap gap-2 mb-4">
+                <span class="bg-red-100 text-red-600 text-xs px-2 py-1 rounded-full">FIGMA</span>
+              </div>
+              <div class="flex flex-wrap gap-2 mb-4">
+                <span class="bg-primary text-xs px-8 py-2 rounded-full  text-white hover:bg-red-500 transition">Figma</span> 
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 5 -->
+          <div class="bg-white rounded-lg overflow-hidden shadow-md">
+            <img src="img/Screenshot 2025-03-13 104426.png" alt="Ui design" class="w-full h-48 object-cover">
+            <div class="p-6">
+              <h3 class="text-xl font-semibold text-gray-800 mb-2">Form input nilai</h3>
+              <p class="text-gray-600 mb-4">A simple Ui Design with figmas</p>
+              <div class="flex flex-wrap gap-2 mb-4">
+                <span class="bg-red-100 text-red-600 text-xs px-2 py-1 rounded-full">HTML</span>
+                <span class="bg-red-100 text-red-600 text-xs px-2 py-1 rounded-full">PHP</span>
+              </div>
+              <div class="flex flex-wrap gap-2 mb-4">
+                <span class="bg-primary text-xs px-8 py-2 rounded-full  text-white hover:bg-red-500 transition"><i class="fab fa-github"></i></span> 
+              </div>
+            </div>
+          </div>
+
+
+      </div>
+    </div>
+  </section>
+  
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 bg-white">
+    <div class="container mx-auto px-4">
+      <h2 class="section-heading text-center">Get In Touch</h2>
+      
+      <div class="flex flex-col md:flex-row mt-12 gap-12">
+        <div class="md:w-1/2">
+          <div class="bg-red-50 p-6 rounded-lg">
+            <h3 class="text-xl font-semibold text-gray-800 mb-4">Contact Me</h3>
+            <p class="text-gray-600 mb-4">Feel free to reach out by clicking the button above or filling in your details below:</p>
+            
+            <form action="mailto:ziakirana.xpro@gmail.com" method="post" enctype="text/plain" class="space-y-4">
+              <div>
+                <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Your Name</label>
+                <input type="text" id="name" name="name" required class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent">
+              </div>
+              <div>
+                <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Your Email</label>
+                <input type="email" id="email" name="email" required class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent">
+              </div>
+              <div>
+                <label for="message" class="block text-sm font-medium text-gray-700 mb-1">Message</label>
+                <textarea id="message" name="message" rows="5" required class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"></textarea>
+              </div>
+              <div>
+                <button type="submit" class="btn w-full">Send Message</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        
+        <div class="md:w-1/2">
+          <div class="bg-red-50 p-6 rounded-lg h-full">
+            <h3 class="text-xl font-semibold text-gray-800 mb-6">Contact Information</h3>
+            
+            <div class="space-y-6">
+              <div class="flex items-start">
+                <div class="bg-primary rounded-full w-10 h-10 flex items-center justify-center mr-4">
+                  <i class="fas fa-envelope text-white"></i>
+                </div>
+                <div>
+                  <h4 class="text-sm font-semibold text-gray-700 mb-1">Email</h4>
+                  <p class="text-gray-600">ziakirana.xpro@gmail.com</p>
+                </div>
+              </div>
+              
+              <div class="flex items-start">
+                <div class="bg-primary rounded-full w-10 h-10 flex items-center justify-center mr-4">
+                  <i class="fas fa-phone text-white"></i>
+                </div>
+                <div>
+                  <h4 class="text-sm font-semibold text-gray-700 mb-1">Phone</h4>
+                  <p class="text-gray-600">+62 811-1804-529</p>
+                </div>
+              </div>
+              
+              <div class="flex items-start">
+                <div class="bg-primary rounded-full w-10 h-10 flex items-center justify-center mr-4">
+                  <i class="fas fa-map-marker-alt text-white"></i>
+                </div>
+                <div>
+                  <h4 class="text-sm font-semibold text-gray-700 mb-1">Location</h4>
+                  <p class="text-gray-600">Ciomas Rahayu, Kabupaten Bogor, Jawa Barat, Indonesia</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="mt-8">
+              <h4 class="text-sm font-semibold text-gray-700 mb-3">Follow Me</h4>
+              <div class="flex space-x-4">
+                <a href="#" class="bg-primary w-10 h-10 rounded-full flex items-center justify-center text-white hover:bg-red-500 transition">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#" class="bg-primary w-10 h-10 rounded-full flex items-center justify-center text-white hover:bg-red-500 transition">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Footer -->
+ <footer class="bg-white py-8 border-t border-gray-200 shadow-md">
+  <div class="container mx-auto px-4">
+    <div class="flex flex-col md:flex-row justify-center items-center">
+      <p class="text-center">Made with <span style="display: inline-flex; align-items: center;">
+          <picture>
+            <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/2764_fe0f/512.webp" type="image/webp">
+            <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/2764_fe0f/512.gif" alt="❤" width="16" height="16">
+          </picture>
+        </span> by Zia</p>
+    </div>
+  </div>
+</footer>
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>
